@@ -1,0 +1,21 @@
+/* DISABLE the horizontal scroll feature */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Center homeimg + Add Border */
+.homeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 8px solid #555;
+}
+
+/* Center container */
+.container {
+    margin: auto;
+    width: 80%;
+    padding: 120px;
+}
