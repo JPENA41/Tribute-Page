@@ -2,6 +2,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: 'Kanit', sans-serif;
 }
 
 /* Center homeimg + Add Border */
@@ -17,7 +18,7 @@ html, body {
 .container {
     margin: auto;
     width: 80%;
-    padding: 120px;
+    padding: 60px;
 }
 
 /* Add a text box under homeimg to complete border */
