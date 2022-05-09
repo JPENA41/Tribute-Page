@@ -5,6 +5,11 @@ html, body {
     font-family: 'Kanit', sans-serif;
 }
 
+:root {
+    --primary-color: #fff; /* try #212121 also for dark mode */
+    --font: sans-serif;
+  }
+
 /* Center container */
 .container {
     margin: auto;
@@ -19,4 +24,59 @@ html, body {
     margin-right: auto;
     width: 50%;
     border: 8px solid #555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Timeline Container */
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 2px solid #333;
+}
+
+/* Timecard container */
+.timecard {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  background: #333;
+  color: gray;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Title of the card */
+.title {
+  color: orangered;
+  position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid orangered;
 }
