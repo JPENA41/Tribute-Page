@@ -5,15 +5,6 @@ html, body {
     font-family: 'Kanit', sans-serif;
 }
 
-/* Center homeimg + Add Border */
-.homeimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 8px solid #555;
-}
-
 /* Center container */
 .container {
     margin: auto;
@@ -21,10 +12,11 @@ html, body {
     padding: 60px;
 }
 
-/* Add a text box under homeimg to complete border */
-.textbox {
-    width: 50%;
-    border: 8px solid #555;
+/* Center homeimg + Add Border */
+.card {
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+    border: 8px solid #555;
 }
