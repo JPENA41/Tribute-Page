@@ -3,6 +3,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: 'Kanit', sans-serif;
+    text-align: center;
 }
 
 :root {
@@ -11,11 +12,19 @@ html, body {
     --secondary-color: orangered;
 }
 
+/* Scale full image within the container */
+.card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
 /* Center container */
 .container {
-    margin: auto;
-    width: 80%;
-    padding: 60px;
+  margin: auto;
+  width: 80%;
+  padding: 60px;
 }
 
 * {
@@ -71,4 +80,13 @@ html, body {
   border-radius: 999px;
   left: -39px;
   border: 3px solid var(--secondary-color);
+}
+
+/* Link starts with #477ca7 and changes color to #74638f when clicked */
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
 }
