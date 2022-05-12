@@ -12,6 +12,18 @@ html, body {
     --secondary-color: orangered;
 }
 
+/* Heading font-size for smaller screen */
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
 /* Scale full image within the container */
 .card-img {
   display: block;
@@ -20,11 +32,30 @@ html, body {
   width: 90%;
 }
 
+/* Blockquote text should be readable for smaller screen */
+.blockquote {
+  font-size: 1.5vw;
+}
+
 /* Center container */
 .container {
   margin: auto;
   width: 80%;
   padding: 60px;
+}
+
+/* Set font-size to smaller screen */
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+/* Set margin to smaller screen */
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
 }
 
 * {
