@@ -1,6 +1,6 @@
 # Tribute Page
  
-1. User Goals: A tribute page dedicated to Saturo Iwata, which displays all of the major accomplishments and contributions to the gaming industry led by this wonderful game developer.
+1. User Goals: A tribute page dedicated to Satoru Iwata, which displays all of the major accomplishments and contributions to the gaming industry led by this wonderful game developer.
 
 2. Key Features:
 - View a list of items from a timeline
