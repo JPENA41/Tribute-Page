@@ -58,6 +58,13 @@ h2 {
   }
 }
 
+/* Set font-size within footer to smaller screen */
+@media (max-width: 460px) {
+  h4 {
+    font-size: 1.4rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
